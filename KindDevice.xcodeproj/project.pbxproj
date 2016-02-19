@@ -13,6 +13,7 @@
 		F26B9D301C7791F800712FE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F26B9D2E1C7791F800712FE1 /* Main.storyboard */; };
 		F26B9D321C7791F800712FE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F26B9D311C7791F800712FE1 /* Assets.xcassets */; };
 		F26B9D351C7791F800712FE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F26B9D331C7791F800712FE1 /* LaunchScreen.storyboard */; };
+		F26B9D421C77925400712FE1 /* SDiOSVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = F26B9D411C77925400712FE1 /* SDiOSVersion.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		F26B9D311C7791F800712FE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F26B9D341C7791F800712FE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F26B9D361C7791F800712FE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F26B9D401C77925400712FE1 /* SDiOSVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDiOSVersion.h; sourceTree = "<group>"; };
+		F26B9D411C77925400712FE1 /* SDiOSVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDiOSVersion.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +102,18 @@
 		F26B9D3E1C77921700712FE1 /* ThirdPartyLibs */ = {
 			isa = PBXGroup;
 			children = (
+				F26B9D3F1C77925400712FE1 /* SDiOSVersion */,
 			);
 			name = ThirdPartyLibs;
+			sourceTree = "<group>";
+		};
+		F26B9D3F1C77925400712FE1 /* SDiOSVersion */ = {
+			isa = PBXGroup;
+			children = (
+				F26B9D401C77925400712FE1 /* SDiOSVersion.h */,
+				F26B9D411C77925400712FE1 /* SDiOSVersion.m */,
+			);
+			path = SDiOSVersion;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F26B9D2D1C7791F800712FE1 /* ViewController.m in Sources */,
+				F26B9D421C77925400712FE1 /* SDiOSVersion.m in Sources */,
 				F26B9D2A1C7791F800712FE1 /* AppDelegate.m in Sources */,
 				F26B9D271C7791F800712FE1 /* main.m in Sources */,
 			);
