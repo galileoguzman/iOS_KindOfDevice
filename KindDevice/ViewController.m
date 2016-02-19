@@ -16,12 +16,26 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    [self initController];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
+// ------------------------------------------------------------------
+// INITIALIZING METHOD
+// ------------------------------------------------------------------
+-(void)initController{
+    
+    
+    
+    
+}
+
+
 
 @end
